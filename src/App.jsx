@@ -98,7 +98,12 @@ export default function App() {
       <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-emerald-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
+            <div className="w-10 h-10 flex items-center justify-center">
+        <img 
+          src="https://files.catbox.moe/1cde7a.png" 
+          alt="Logo STKIP Muhammadiyah" 
+          className="w-full h-full object-contain"
+          />
               
             </div>
             <div className={`font-bold text-xl ${scrolled ? 'text-gray-900' : 'text-white md:text-white text-emerald-900'} leading-tight`}>
