@@ -53,23 +53,23 @@ const ukmData = [
   { id: 1, name: "BEM", desc: "Badan Eksekutif Mahasiswa. Wadah kepemimpinan dan aspirasi mahasiswa.", img: "https://files.catbox.moe/f7mgks.jpg" },
   { id: 2, name: "Lembaga Pers Mahasiswa", desc: "Kembangkan bakat jurnalistik, fotografi, dan penulisan kreatif.", img: "https://files.catbox.moe/xrygch.jpg" },
   { id: 3, name: "MAPALA KOMPAS", desc: "Mahasiswa Pecinta Alam. Menjelajah dan menjaga kelestarian lingkungan.", img: "https://files.catbox.moe/j1eswj.jpg" },
-  { id: 4, name: "UKM Tari", desc: "Melestarikan budaya tradisional melalui seni tari yang indah.", img: "https://images.unsplash.com/photo-1535525153412-5a42439a210d?auto=format&fit=crop&q=80&w=600" },
-  { id: 5, name: "UKM Olahraga", desc: "Futsal, Voli, Basket. Sehat jasmani, berprestasi di lapangan.", img: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&q=80&w=600" },
-  { id: 6, name: "Pecinta Buku", desc: "Komunitas pecinta buku dan diskusi intelektual.", img: "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&q=80&w=600" },
-  { id: 7, name: "BGSM", desc: "Bujang Gadis STKIP Muhammadiyah Pagar Alam, Icon Kampus.", img: "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&q=80&w=600" },
-  { id: 8, name: "SIBELATIS", desc: "Seni Bela Diri Gabungan.", img: "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&q=80&w=600" },
+  { id: 4, name: "UKM Tari", desc: "Melestarikan budaya tradisional melalui seni tari yang indah.", img: "https://files.catbox.moe/ik5kwb.jpg" },
+  { id: 5, name: "UKM Olahraga", desc: "Futsal, Voli, Badminton. Sehat jasmani, berprestasi di lapangan.", img: "https://files.catbox.moe/utm39z.jpg" },
+  { id: 6, name: "Pecinta Buku", desc: "Komunitas pecinta buku dan diskusi intelektual.", img: "https://files.catbox.moe/hax7ix.jpg" },
+  { id: 7, name: "BGSM", desc: "Bujang Gadis STKIP Muhammadiyah Pagar Alam, Icon Kampus.", img: "https://files.catbox.moe/mk9smk.jpg" },
+  { id: 8, name: "SIBELATIS", desc: "Seni Bela Diri Gabungan.", img: "https://files.catbox.moe/8xutpg.jpg" },
 ];
 
 const alumniData = [
-  { name: "Tomy Heryandi, S.Pd.", job: "Kepala SD Islam Al-Azhar Cairo Pagar Alam", img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200" },
-  { name: "Novi Handayani, S.Pd.", job: "Kepala SD IT Persatuan Islam Pagar Alam", img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200" },
-  { name: "Agung Rego, S.Pd.", job: "Kepala SMP PGRI Pagar Alam", img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200" },
-  { name: "Dewi Martha, S.Pd.Gr.", job: "Kepala SMP Islam Al-Azhar Cairo Pagar Alam", img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200" },
-  { name: "Dery Herdiansyah, S.Pd.", job: "Brimob Porli", img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200" },
-  { name: "Lusia Ayu Andini, S.Pd.Gr.", job: "ASN PPPK, Bendahara STKIP Muhammadiyah Pagar Alam", img: "https://images.unsplash.com/photo-1567532939103-c053bb14b2b8?w=200" },
-  { name: "Era Listiani, S.Pd.Gr.", job: "ASN PPPK SMK Negeri 2 Pagar Alam", img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200" },
-  { name: "Hikmawati Nasution, S.Pd.", job: "Pegawai Bank Sumsel Babel", img: "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=200" },
-  { name: "Zerra Novalina, S.Pd.", job: "Pegawai BANK BRI", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200" },
+  { name: "Tomy Heryandi, S.Pd.", job: "Kepala SD Islam Al-Azhar Cairo Pagar Alam", img: "https://files.catbox.moe/o8wq02.jpg" },
+  { name: "Novi Handayani, S.Pd.", job: "Kepala SD IT Persatuan Islam Pagar Alam", img: "https://files.catbox.moe/kckd2k.jpg" },
+  { name: "Agung Rego, S.Pd.", job: "Kepala SMP PGRI Pagar Alam", img: "https://files.catbox.moe/hz7wdf.jpg" },
+  { name: "Dewi Martha, S.Pd.Gr.", job: "Kepala SMP Islam Al-Azhar Cairo Pagar Alam", img: "https://files.catbox.moe/0nq4sc.jpg" },
+  { name: "Dery Herdiansyah, S.Pd.", job: "Brimob Porli", img: "https://files.catbox.moe/69y2rk.jpg" },
+  { name: "Lusia Ayu Andini, S.Pd.Gr.", job: "ASN PPPK, Bendahara STKIP Muhammadiyah Pagar Alam", img: "https://files.catbox.moe/lq9om6.jpg" },
+  { name: "Era Listiani, S.Pd.Gr.", job: "ASN PPPK SMK Negeri 2 Pagar Alam", img: "https://files.catbox.moe/coxpjf.jpg" },
+  { name: "Hikmawati Nasution, S.Pd.", job: "Pegawai Bank Sumsel Babel", img: "https://files.catbox.moe/sci930.jpg" },
+  { name: "Zerra Novalina, S.Pd.", job: "Pegawai BANK BRI", img: "https://files.catbox.moe/pwkh2c.jpg" },
 ];
 
 export default function App() {
@@ -99,7 +99,7 @@ export default function App() {
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-emerald-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-              M
+              
             </div>
             <div className={`font-bold text-xl ${scrolled ? 'text-gray-900' : 'text-white md:text-white text-emerald-900'} leading-tight`}>
               STKIP Muhammadiyah<br/>
@@ -374,28 +374,28 @@ export default function App() {
                 title: "Juni Adi Saputra", 
                 name: "Prodi Pendidikan Bahasa Inggris",
                 icon: Trophy,
-                img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200" 
+                img: "https://files.catbox.moe/jrlbw2.jpg" 
               },
               { 
                 num: "Duta Literasi Indonesia", 
                 title: "Novaldiansyah", 
                 name: "Prodi Pendidikan Bahasa dan Sastra Indonesia",
                 icon: BookOpen,
-                img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
+                img: "https://files.catbox.moe/n5to87.jpg"
               },
               { 
                 num: "Juara 2 Presentasi Oral Tingkat Nasional", 
                 title: "Widya Hariyanti", 
                 name: "Prodi Pendidikan Bahasa Inggris",
                 icon: Users,
-                img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+                img: "https://files.catbox.moe/4io7lr.jpg"
               },
               { 
                 num: "Satu-satunya Putri Perwakilan Sum-Sel Dalam Pertukaran Pemuda Antar Provinsi", 
                 title: "Intan Della Classica", 
                 name: "Prodi Pendidikan Bahasa Inggris",
                 icon: Award, // Pastikan Award sudah di-import di bagian atas
-                img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+                img: "https://files.catbox.moe/3i3qfr.jpg"
               }
             ].map((item, idx) => (
               <div key={idx} className="group bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-emerald-500/30 hover:bg-white/20 transition-all duration-300 hover:-translate-y-2">
@@ -426,7 +426,7 @@ export default function App() {
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=800" 
+                src="https://files.catbox.moe/svwkcn.jpg" 
                 alt="Beasiswa" 
                 className="rounded-2xl shadow-2xl rotate-2 hover:rotate-0 transition duration-500"
               />
@@ -439,10 +439,11 @@ export default function App() {
               <div className="grid grid-cols-1 gap-4">
                 {[
                   "KIP Kuliah (Bebas SPP + Uang Saku)",
-                  "Beasiswa Kader Muhammadiyah",
+                  "Bantuan Biaya Pendidikan (Bebas SPP)",
+                  "Beasiswa Muhammadiyah (Potongan SPP 60%)",
                   "Beasiswa Tahfidz Quran (Potongan hingga 70%)",
-                  "Beasiswa Prestasi Akademik",
-                  "Beasiswa Saudara & Suami/Istri"
+                  "Beasiswa Kader Muhammadiyah (Gratis SPP 2 Semester",
+                  "Beasiswa Saudara & Suami/Istri (Saudara/Pasutri yang kuliah bareng di STKIPM Pagar Alam ada potongan SPP"
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center bg-white p-4 rounded-xl shadow-sm border border-yellow-200">
                     <CheckCircle className="text-emerald-600 w-6 h-6 mr-3 flex-shrink-0" />
