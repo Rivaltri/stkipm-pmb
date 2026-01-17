@@ -375,7 +375,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             {[
               { 
-                num: "Juara 1 Komperisi Poster Nasional", 
+                num: "Juara 1 Kompetisi Poster Nasional", 
                 title: "Juni Adi Saputra", 
                 name: "Prodi Pendidikan Bahasa Inggris",
                 icon: Trophy,
@@ -447,7 +447,7 @@ export default function App() {
                   "Bantuan Biaya Pendidikan (Bebas SPP)",
                   "Beasiswa Muhammadiyah (Potongan SPP 60%)",
                   "Beasiswa Tahfidz Quran (Potongan hingga 70%)",
-                  "Beasiswa Kader Muhammadiyah (Gratis SPP 2 Semester",
+                  "Beasiswa Kader Muhammadiyah (Gratis SPP 2 Semester)",
                   "Beasiswa Saudara & Suami/Istri (Saudara/Pasutri yang kuliah bareng di STKIPM Pagar Alam ada potongan SPP"
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center bg-white p-4 rounded-xl shadow-sm border border-yellow-200">
@@ -564,7 +564,7 @@ export default function App() {
         Daftar Online Sekarang <ArrowRight className="ml-2" />
       </a>
 
-      {/* Tombol WhatsApp (Ganti XXXXX dengan nomor admin) */}
+      {/* Tombol WhatsApp) */}
       <a 
         href="https://wa.me/6282171948535" 
         target="_blank" 
@@ -583,16 +583,20 @@ export default function App() {
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 bg-emerald-600 rounded flex items-center justify-center text-white font-bold">M</div>
-              <span className="text-xl font-bold text-white">STKIP Muhammadiyah</span>
+              <img 
+  src="https://files.catbox.moe/1cde7a.png" 
+  alt="Logo STKIP Muhammadiyah Pagar Alam" 
+  className="w-10 h-10 object-contain" 
+/>
+              <span className="text-xl font-bold text-white">STKIP Muhammadiyah Pagar Alam</span>
             </div>
             <p className="text-sm leading-relaxed mb-6">
               Kampus modern, berprestasi, dan peduli masa depan mahasiswa. Tempat lahirnya generasi perubahan.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-emerald-500 transition"><Instagram size={20} /></a>
-              <a href="#" className="hover:text-emerald-500 transition"><Facebook size={20} /></a>
-              <a href="#" className="hover:text-emerald-500 transition"><Youtube size={20} /></a>
+              <a href="https://www.instagram.com/stkipmpgastory?igsh=MW0ycGozZmxpbGdmOA==" className="hover:text-emerald-500 transition"><Instagram size={20} /></a>
+              <a href="https://www.facebook.com/share/1AktMMCo3i/" className="hover:text-emerald-500 transition"><Facebook size={20} /></a>
+              <a href="https://www.youtube.com/@STKIPMuhammadiyahPagarAlam" className="hover:text-emerald-500 transition"><Youtube size={20} /></a>
             </div>
           </div>
           
@@ -601,15 +605,15 @@ export default function App() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start">
                 <MapPin className="mr-3 w-5 h-5 text-emerald-500 flex-shrink-0" />
-                <span>Jl. Kauman No. 12, Kota Pagar Alam, Sumatera Selatan</span>
+                <span>Jl. H. A. Rais Saleh No.39-22, Basemah Serasan, Kec. Pagar Alam Sel., Kota Pagar Alam, Sumatera Selatan 31529</span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-3 w-5 h-5 text-emerald-500" />
-                <span>(0730) 1234567</span>
+                <span>+62 821-7194-8535</span>
               </li>
               <li className="flex items-center">
                 <div className="mr-3 w-5 h-5 text-emerald-500 font-bold">@</div>
-                <span>pmb@stkipmuh-pagaralam.ac.id</span>
+                <span>stkipmuhpagaralam@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -620,7 +624,7 @@ export default function App() {
               <li><button onClick={() => scrollToSection('prodi')} className="hover:text-emerald-500">Program Studi</button></li>
               <li><button onClick={() => scrollToSection('beasiswa')} className="hover:text-emerald-500">Info Beasiswa</button></li>
               <li><button onClick={() => scrollToSection('alur')} className="hover:text-emerald-500">Alur Pendaftaran</button></li>
-              <li><a href="#" className="hover:text-emerald-500">Download Brosur</a></li>
+              <li><a href="https://drive.google.com/file/d/18FO7VSl97sJcGNaFBXUpSHATzA_Vydmk/view?usp=drive_link" className="hover:text-emerald-500">Download Brosur</a></li>
             </ul>
           </div>
         </div>
