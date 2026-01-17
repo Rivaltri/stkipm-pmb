@@ -163,7 +163,7 @@ export default function App() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1920" 
+            src="https://files.catbox.moe/iiymco.jpg" 
             alt="Mahasiswa STKIP" 
             className="w-full h-full object-cover"
           />
