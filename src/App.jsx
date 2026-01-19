@@ -18,6 +18,7 @@ import {
   DollarSign,
   Heart
 } from 'lucide-react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // --- Components ---
 
