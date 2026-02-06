@@ -170,7 +170,7 @@ export default function App() {
           return (
             <a 
               key={item}
-              href="https://link-brosur-kamu.pdf" // <--- GANTI LINK INI
+              href="https://drive.google.com/file/d/18FO7VSl97sJcGNaFBXUpSHATzA_Vydmk/view" // <--- GANTI LINK INI
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsMenuOpen(false)} // Tutup menu setelah klik
