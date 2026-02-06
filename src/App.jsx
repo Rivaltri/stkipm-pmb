@@ -20,17 +20,9 @@ import {
 } from 'lucide-react';
 
 import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from "@vercel/speed-insights/react" // karena Anda tadi menginstal ini
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
-function App() {
-  return (
-    <>
-      <Router /> {/* Komponen utama Anda */}
-      <Analytics />
-      <SpeedInsights />
-    </>
-  );
-}
+
 
 // --- Components ---
 
@@ -127,15 +119,33 @@ export default function App() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            {['Beranda', 'Prodi', 'Beasiswa', 'Daftar'].map((item) => (
-              <button 
+          {['Beranda', 'Prodi', 'Beasiswa', 'Daftar', 'Download Brosur'].map((item) => {
+          // Kondisi khusus untuk Download Brosur
+          if (item === 'Download Brosur') {
+            return (
+              <a 
                 key={item}
-                onClick={() => scrollToSection(item.toLowerCase())}
+                href="https://drive.google.com/file/d/18FO7VSl97sJcGNaFBXUpSHATzA_Vydmk/view" // GANTI DENGAN LINK FILE KAMU
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`text-sm font-medium hover:text-yellow-400 transition-colors ${scrolled ? 'text-gray-700' : 'text-white'}`}
-              >
-                {item}
-              </button>
-            ))}
+            >
+              {item}
+            </a>
+          );
+      }
+
+  // Menu lainnya tetap menggunakan button scroll
+  return (
+    <button 
+      key={item}
+      onClick={() => scrollToSection(item.toLowerCase())}
+      className={`text-sm font-medium hover:text-yellow-400 transition-colors ${scrolled ? 'text-gray-700' : 'text-white'}`}
+    >
+      {item}
+    </button>
+  );
+})}
             <button onClick={() => scrollToSection('daftar')} className="bg-yellow-400 text-emerald-900 px-6 py-2 rounded-full font-bold hover:bg-yellow-300 transition transform hover:scale-105 shadow-lg">
               Daftar Sekarang
             </button>
@@ -150,25 +160,55 @@ export default function App() {
           </button>
         </div>
 
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t">
-            <div className="flex flex-col p-4 space-y-4">
-              {['Beranda', 'Prodi', 'Beasiswa', 'Daftar'].map((item) => (
-                <button 
-                  key={item}
-                  onClick={() => scrollToSection(item.toLowerCase())}
-                  className="text-left font-medium text-gray-700 py-2 border-b border-gray-100"
-                >
-                  {item}
-                </button>
-              ))}
-              <button onClick={() => scrollToSection('daftar')} className="bg-emerald-600 text-white py-3 rounded-lg font-bold w-full">
-                Daftar Sekarang
-              </button>
-            </div>
-          </div>
-        )}
+  {/* Mobile Menu */}
+{isMenuOpen && (
+  <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t">
+    <div className="flex flex-col p-4 space-y-4">
+      {['Beranda', 'Prodi', 'Beasiswa', 'Daftar', 'Download Brosur'].map((item) => {
+        // Logika Khusus untuk Download Brosur
+        if (item === 'Download Brosur') {
+          return (
+            <a 
+              key={item}
+              href="https://link-brosur-kamu.pdf" // <--- GANTI LINK INI
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsMenuOpen(false)} // Tutup menu setelah klik
+              className="text-left font-medium text-gray-700 py-2 border-b border-gray-100 block"
+            >
+              {item}
+            </a>
+          );
+        }
+
+        // Logika untuk Menu Lainnya (Scroll)
+        return (
+          <button 
+            key={item}
+            onClick={() => {
+              scrollToSection(item.toLowerCase());
+              setIsMenuOpen(false); // Tutup menu setelah klik
+            }}
+            className="text-left font-medium text-gray-700 py-2 border-b border-gray-100"
+          >
+            {item}
+          </button>
+        );
+      })}
+
+      {/* Tombol Action Utama di Mobile */}
+      <button 
+        onClick={() => {
+          scrollToSection('daftar');
+          setIsMenuOpen(false);
+        }} 
+        className="bg-emerald-600 text-white py-3 rounded-lg font-bold w-full shadow-md active:bg-emerald-700"
+      >
+        Daftar Sekarang
+      </button>
+    </div>
+  </div>
+)}
       </nav>
 
       {/* HERO SECTION */}
@@ -569,7 +609,7 @@ export default function App() {
     <div className="flex flex-col md:flex-row justify-center gap-4">
       {/* Tombol Daftar Online ke SISFO */}
       <a 
-        href="https://sisfo.stkipm-pagaralam.ac.id/pendaftaran" 
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd7Pd5qdRpeRbTCcjzD3n-Q8jmSAkvOf1zyAwfD8flSwj3mYQ/viewform" 
         target="_blank" 
         rel="noopener noreferrer"
         className="bg-yellow-400 text-emerald-900 px-8 py-4 rounded-full font-bold text-lg shadow-xl hover:bg-yellow-300 transition transform hover:scale-105 flex items-center justify-center no-underline"
